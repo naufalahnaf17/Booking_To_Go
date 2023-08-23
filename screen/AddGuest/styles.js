@@ -1,0 +1,98 @@
+import {StyleSheet} from 'react-native';
+import colors from '../../utils/color';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.white,
+  },
+  txtTittleStepper: {
+    color: colors.black,
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  wrapper: {
+    padding: 16,
+    flex: 1,
+  },
+  wrapperButton: {
+    height: 45,
+    width: '100%',
+    backgroundColor: colors.orange,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 10,
+    right: '5%',
+    borderRadius: 8,
+  },
+  txtSimpan: {fontWeight: 'bold', color: colors.white},
+  wrapperItem: {height: 50, marginVertical: 5, flexDirection: 'row'},
+  pressModal: {width: 50, height: 40},
+  textInput: {
+    borderRadius: 5,
+    borderColor: 'lightgrey',
+    borderWidth: 1,
+    flex: 1,
+    height: 40,
+    marginStart: 10,
+    color: colors.blue,
+    fontWeight: '600',
+    paddingHorizontal: 10,
+    fontSize: 14,
+  },
+  buttonDelete: {
+    width: 40,
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  wrapperButtonAdd: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 10,
+  },
+  textButtonAdd: {
+    fontWeight: 'bold',
+    fontSize: 12,
+    color: colors.orange,
+    textDecorationLine: 'underline',
+  },
+  containerModal: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#00000040',
+  },
+  wrapperContentModal: {
+    width: '80%',
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 16,
+  },
+  textModal: {
+    fontSize: 16,
+    textAlign: 'center',
+    paddingHorizontal: 17,
+    color: 'red',
+  },
+  buttonModal: {
+    height: 50,
+    justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: 'lightgrey',
+  },
+  buttonShowModal: {
+    borderRadius: 5,
+    borderColor: 'lightgrey',
+    borderWidth: 1,
+    flex: 1,
+    height: 40,
+    color: colors.blue,
+    fontWeight: '600',
+    paddingHorizontal: 10,
+    fontSize: 14,
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+  },
+});
